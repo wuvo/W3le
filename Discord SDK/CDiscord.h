@@ -2,11 +2,9 @@
 #define WIN32_LEAN_AND_MEAN      
 #define _CRT_SECURE_NO_WARNINGS
 
-#include "../discord_register.h" //sdk
-#include "../discord_rpc.h" // sdk
+#include "../discord_game_sdk_stub.h" // new Social SDK wrapper
 #include <Windows.h>
 #include <thread>
-#include <Windows.h> //windows general header
 
 class CDiscord {
 public:

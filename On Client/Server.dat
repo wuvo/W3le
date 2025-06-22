@@ -1,0 +1,999 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="cq2">
+	<table_structure name="outenserver">
+		<field Field="id" Type="smallint(1) unsigned zerofill" Null="NO" Key="PRI" Default="0" Extra="" />
+		<field Field="ServerName" Type="varchar(32)" Null="YES" Key="" Extra="" />
+		<field Field="ServerIP" Type="varchar(15)" Null="YES" Key="" Extra="" />
+		<field Field="ServerPort" Type="int(1) unsigned" Null="YES" Key="" Extra="" />
+		<field Field="FlashName" Type="varchar(32)" Null="YES" Key="" Extra="" />
+		<field Field="FlashIcon" Type="varchar(32)" Null="YES" Key="" Extra="" />
+		<field Field="FlashHint" Type="varchar(128)" Null="YES" Key="" Extra="" />
+		<field Field="Child" Type="tinyint(1) unsigned zerofill" Null="NO" Key="" Default="0" Extra="" />
+		<key Table="outenserver" Non_unique="0" Key_name="id" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="98" Null="" Index_type="BTREE" Comment="" />
+		<options Name="outenserver" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="98" Avg_row_length="58" Data_length="5692" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2008-11-26 08:33:09" Update_time="2009-07-15 08:21:46" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="outenserver">
+	<row>
+		<field name="id">0</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon"></field>
+		<field name="FlashHint"></field>
+		<field name="Child">1</field>
+	</row>
+	<row>
+		<field name="id">1</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Extream-CO</field>
+		<field name="FlashIcon">Group11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">1</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group2</field>
+		<field name="FlashIcon">Group1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group3</field>
+		<field name="FlashIcon">Group2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group4</field>
+		<field name="FlashIcon">Group3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">12</field>
+	</row>
+	<row>
+		<field name="id">5</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group5</field>
+		<field name="FlashIcon">Group4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">6</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group6</field>
+		<field name="FlashIcon">Group5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">7</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group7</field>
+		<field name="FlashIcon">Group6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">8</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group8</field>
+		<field name="FlashIcon">Group7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">9</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group9</field>
+		<field name="FlashIcon">Group8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">8</field>
+	</row>
+	<row>
+		<field name="id">10</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group10</field>
+		<field name="FlashIcon">Group9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">6</field>
+	</row>
+	<row>
+		<field name="id">11</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">Group11</field>
+		<field name="FlashIcon">Group10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">7</field>
+	</row>
+	<row>
+		<field name="id">101</field>
+		<field name="ServerName">Light</field>
+		<field name="ServerIP">91.99.75.143</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Light</field>
+		<field name="FlashIcon">Group3/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">102</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group3/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">103</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group3/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">104</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group3/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">105</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group3/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">201</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group2/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">202</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group2/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">203</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon">Group2/server3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">204</field>
+		<field name="ServerName">Gryphon</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Gryphon</field>
+		<field name="FlashIcon">Group2/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">205</field>
+		<field name="ServerName">Titan</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Titan</field>
+		<field name="FlashIcon">Group2/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">206</field>
+		<field name="ServerName">Unicorn</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Unicorn</field>
+		<field name="FlashIcon">Group2/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">207</field>
+		<field name="ServerName">Basilisk</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Basilisk</field>
+		<field name="FlashIcon">Group2/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">208</field>
+		<field name="ServerName">Pegasus</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Medusa</field>
+		<field name="FlashIcon">Group2/server13.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">301</field>
+		<field name="ServerName">Bluebird</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Bluebird</field>
+		<field name="FlashIcon">Group1/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">302</field>
+		<field name="ServerName">Bluebird</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">BeautyandBeast</field>
+		<field name="FlashIcon">Group1/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">303</field>
+		<field name="ServerName">SnowWhite</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Cinderella</field>
+		<field name="FlashIcon">Group1/server11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">304</field>
+		<field name="ServerName">SnowWhite</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">SnowWhite</field>
+		<field name="FlashIcon">Group1/server12.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">305</field>
+		<field name="ServerName">WildSwan</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">FrogPrince</field>
+		<field name="FlashIcon">Group3/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">306</field>
+		<field name="ServerName">WildSwan</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">WildSwan</field>
+		<field name="FlashIcon">Group3/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">307</field>
+		<field name="ServerName">Centaur</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">UglyDuckling</field>
+		<field name="FlashIcon">Group3/server11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">308</field>
+		<field name="ServerName">Centaur</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Aladdin</field>
+		<field name="FlashIcon">Group3/server12.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">401</field>
+		<field name="ServerName">Capricorn</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Capricorn</field>
+		<field name="FlashIcon">Group4/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">402</field>
+		<field name="ServerName">Aquarius</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Aquarius</field>
+		<field name="FlashIcon">Group4/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">403</field>
+		<field name="ServerName">Leo</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Pisces</field>
+		<field name="FlashIcon">Group4/server3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">404</field>
+		<field name="ServerName">Aries</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Aries</field>
+		<field name="FlashIcon">Group4/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">405</field>
+		<field name="ServerName">Sagittarius</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Taurus</field>
+		<field name="FlashIcon">Group4/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">406</field>
+		<field name="ServerName">Gemini</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Gemini</field>
+		<field name="FlashIcon">Group4/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">407</field>
+		<field name="ServerName">Cancer</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Cancer</field>
+		<field name="FlashIcon">Group4/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">408</field>
+		<field name="ServerName">Leo</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Leo</field>
+		<field name="FlashIcon">Group4/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">409</field>
+		<field name="ServerName">Libra</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Libra</field>
+		<field name="FlashIcon">Group4/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">410</field>
+		<field name="ServerName">Scorpio</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Scorpio</field>
+		<field name="FlashIcon">Group4/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">411</field>
+		<field name="ServerName">Sagittarius</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Sagittarius</field>
+		<field name="FlashIcon">Group4/server11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">412</field>
+		<field name="ServerName">Virgo</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Virgo</field>
+		<field name="FlashIcon">Group4/server12.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">501</field>
+		<field name="ServerName">Fury</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Fury</field>
+		<field name="FlashIcon">Group8/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">502</field>
+		<field name="ServerName">Fury</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Ryee</field>
+		<field name="FlashIcon">Group8/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">503</field>
+		<field name="ServerName">BabyIcey</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Mayfaire</field>
+		<field name="FlashIcon">Group8/server3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">504</field>
+		<field name="ServerName">BabyIcey</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">BabyIcey</field>
+		<field name="FlashIcon">Group8/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">505</field>
+		<field name="ServerName">Nanya</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Nanya</field>
+		<field name="FlashIcon">Group8/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">506</field>
+		<field name="ServerName">Hebby</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Hebby</field>
+		<field name="FlashIcon">Group8/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">507</field>
+		<field name="ServerName">BabyIcey</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Arbiter</field>
+		<field name="FlashIcon">Group8/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">508</field>
+		<field name="ServerName">Hebby</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">KingJus</field>
+		<field name="FlashIcon">Group8/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">601</field>
+		<field name="ServerName">Mausoleum</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Mausoleum</field>
+		<field name="FlashIcon">Group5/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">602</field>
+		<field name="ServerName">Pyramid</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Pyramid</field>
+		<field name="FlashIcon">Group5/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">603</field>
+		<field name="ServerName">HangingGardens</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">HangingGardens</field>
+		<field name="FlashIcon">Group5/server3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">604</field>
+		<field name="ServerName">GreatWall</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">GreatWall</field>
+		<field name="FlashIcon">Group5/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">605</field>
+		<field name="ServerName">Pharos</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Pharos</field>
+		<field name="FlashIcon">Group5/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">606</field>
+		<field name="ServerName">StatueOfZeus</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">StatueOfZeus</field>
+		<field name="FlashIcon">Group5/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">607</field>
+		<field name="ServerName">GreatWall</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">ColossusRhodes</field>
+		<field name="FlashIcon">Group5/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">608</field>
+		<field name="ServerName">Pharos</field>
+		<field name="ServerIP">69.59.186.5</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">TempleArtemis</field>
+		<field name="FlashIcon">Group5/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">701</field>
+		<field name="ServerName">Mercury</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Mercury</field>
+		<field name="FlashIcon">Group7/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">702</field>
+		<field name="ServerName">Saturn</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Saturn</field>
+		<field name="FlashIcon">Group7/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">703</field>
+		<field name="ServerName">Pluto</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Jupiter</field>
+		<field name="FlashIcon">Group7/server11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">704</field>
+		<field name="ServerName">Venus</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Mars</field>
+		<field name="FlashIcon">Group7/server12.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">705</field>
+		<field name="ServerName">Venus</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Venus</field>
+		<field name="FlashIcon">Group5/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">706</field>
+		<field name="ServerName">Neptune</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Neptune</field>
+		<field name="FlashIcon">Group5/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">707</field>
+		<field name="ServerName">Uranus</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Uranus</field>
+		<field name="FlashIcon">Group5/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">708</field>
+		<field name="ServerName">Pluto</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Pluto</field>
+		<field name="FlashIcon">Group5/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">801</field>
+		<field name="ServerName">Snowfall</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Snowfall</field>
+		<field name="FlashIcon">Group7/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">802</field>
+		<field name="ServerName">Tornado</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Tornado</field>
+		<field name="FlashIcon">Group7/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">803</field>
+		<field name="ServerName">Blizzard</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Blizzard</field>
+		<field name="FlashIcon">Group7/server3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">804</field>
+		<field name="ServerName">Sunshine</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Sunshine</field>
+		<field name="FlashIcon">Group7/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">805</field>
+		<field name="ServerName">Lightning</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Lightning</field>
+		<field name="FlashIcon">Group7/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">806</field>
+		<field name="ServerName">Volcano</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Volcano</field>
+		<field name="FlashIcon">Group7/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">807</field>
+		<field name="ServerName">Thunder</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Thunder</field>
+		<field name="FlashIcon">Group7/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">808</field>
+		<field name="ServerName">Meteor</field>
+		<field name="ServerIP">69.59.181.220</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Meteor</field>
+		<field name="FlashIcon">Group7/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">901</field>
+		<field name="ServerName">Eternity</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Eternity</field>
+		<field name="FlashIcon">Group1/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">902</field>
+		<field name="ServerName">Dream</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Dream</field>
+		<field name="FlashIcon">Group1/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">903</field>
+		<field name="ServerName">Glory</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Glory</field>
+		<field name="FlashIcon">Group1/server3.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">904</field>
+		<field name="ServerName">Faith</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Faith</field>
+		<field name="FlashIcon">Group1/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">905</field>
+		<field name="ServerName">Freedom</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Freedom</field>
+		<field name="FlashIcon">Group1/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">906</field>
+		<field name="ServerName">Honor</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Honor</field>
+		<field name="FlashIcon">Group1/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">907</field>
+		<field name="ServerName">Justice</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Justice</field>
+		<field name="FlashIcon">Group1/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">908</field>
+		<field name="ServerName">Triumph</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Triumph</field>
+		<field name="FlashIcon">Group1/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1001</field>
+		<field name="ServerName">Turquoise</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Turquoise</field>
+		<field name="FlashIcon">Group5/server9.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1002</field>
+		<field name="ServerName">Emerald</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Emerald</field>
+		<field name="FlashIcon">Group5/server10.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1003</field>
+		<field name="ServerName">Crystal</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Crystal</field>
+		<field name="FlashIcon">Group5/server11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1004</field>
+		<field name="ServerName">Diamond</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Diamond</field>
+		<field name="FlashIcon">Group5/server12.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1005</field>
+		<field name="ServerName">Ruby</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Ruby</field>
+		<field name="FlashIcon">Group4/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1006</field>
+		<field name="ServerName">Sapphire</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Sapphire</field>
+		<field name="FlashIcon">Group4/server2.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1101</field>
+		<field name="ServerName">Eagle</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Eagle</field>
+		<field name="FlashIcon">Group2/server11.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1102</field>
+		<field name="ServerName">Lion</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Lion</field>
+		<field name="FlashIcon">Group2/server1.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1103</field>
+		<field name="ServerName">Tiger</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Tiger</field>
+		<field name="FlashIcon">Group2/server6.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1104</field>
+		<field name="ServerName">Phoenix</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Phoenix</field>
+		<field name="FlashIcon">Group2/server5.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1105</field>
+		<field name="ServerName">Dragon</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Dragon</field>
+		<field name="FlashIcon">Group2/server4.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1106</field>
+		<field name="ServerName">Kylin</field>
+		<field name="ServerIP">69.59.181.212</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">Kylin</field>
+		<field name="FlashIcon">Group2/server7.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	<row>
+		<field name="id">1107</field>
+		<field name="ServerName">WorldPKServer</field>
+		<field name="ServerIP">69.59.144.68</field>
+		<field name="ServerPort">9958</field>
+		<field name="FlashName">WorldPKServer</field>
+		<field name="FlashIcon">Group2/server8.swf</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
